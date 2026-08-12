@@ -1,0 +1,49 @@
+{
+    "target_ip": "192.168.29.228",
+    "validated_at": "2026-02-05T04:19:25.171656",
+    "validation_method": {
+        "type": "evidence_coverage_and_consistency",
+        "notes": "No multi-model agreement used. Scores are based on scan alignment ."
+    },
+    "confidence_scores": {
+        "security_analysis": 55,
+        "compliance_analysis": 55,
+        "risk_assessment": 55,
+        "final_confidence": 70
+    },
+    "evidence_reports": {
+        "security": {
+            "open_ports_in_scan": [],
+            "ports_mentioned_in_section": [],
+            "ip_addresses_found_in_scan": [
+                "192.168.29.228"
+            ],
+            "issues": [
+                "No open ports found in scan, evidence validation limited.",
+                "Section mentions ports not found in scan: ['0796', '1', '135', '139', '168', '192', '2', '2020', '228', '29', '3', '4', '445', '5', '5357', '6']"
+            ]
+        },
+        "compliance": {
+            "open_ports_in_scan": [],
+            "ports_mentioned_in_section": [],
+            "ip_addresses_found_in_scan": [
+                "192.168.29.228"
+            ],
+            "issues": [
+                "No open ports found in scan, evidence validation limited.",
+                "Section mentions ports not found in scan: ['1', '12', '13', '135', '139', '14', '2', '3', '4', '445', '5', '5357', '6', '7', '9']"
+            ]
+        },
+        "risk": {
+            "open_ports_in_scan": [],
+            "ports_mentioned_in_section": [],
+            "ip_addresses_found_in_scan": [
+                "192.168.29.228"
+            ],
+            "issues": [
+                "No open ports found in scan, evidence validation limited.",
+                "Section mentions ports not found in scan: ['1', '135', '139', '2', '3', '4', '445', '5', '5357', '6']"
+            ]
+        }
+    }
+}
