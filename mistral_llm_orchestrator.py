@@ -5,7 +5,7 @@ import requests
 INPUT_FILE = "IP_scan.json"
 OUTPUT_FILE = "LLM_Final_Report.json"
 
-MISTRAL_API_KEY = "GETsezHNPRSPKuxE0DWt0Rro8HMdgFjh"
+MISTRAL_API_KEY = "GETAABcdEFgHijKLMNopqStUVEWKyz123"
 MISTRAL_CHAT_URL = "https://api.mistral.ai/v1/chat/completions"
 
 # Different models per task if you want
